@@ -6,6 +6,6 @@ app.listen(
     () => console.log("Listening on port 8080")
 )
 
-app.get('/', (req, res) => {
+app.get('/get_vid', (req, res) => {
     res.sendFile(__dirname + '/test.txt')
 });
